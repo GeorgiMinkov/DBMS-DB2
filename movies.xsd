@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema targetNamespace="http://xmlcourse.free.bg/2017/71600/movies"
+	elementFormDefault="qualified" xmlns="http://www.w3.org/2001/XMLSchema"
+	xmlns:mns="http://xmlcourse.free.bg/2017/71600/movies">
+	<element name="movies">
+		<complexType>
+			<sequence>
+				<element name="movie">
+					<complexType>
+						<sequence>
+							<element name="title" type="string" />
+							<element name="studio">
+								<complexType>
+									<sequence>
+										<element name="name" type="string" />
+										<element name="address" type="string" />
+										Това е за продуцент <element name="networth">
+											<complexType>
+												<attribute name="value", type="integer" />
+												<attribute name="currency" type="string" />
+											</complexType>
+										</element>
+									</sequence>
+								</complexType>
+							</element>
+						</sequence>
+						<attribute name="year" type="gYear" />
+						<attribute name="length" type="positiveInteger" />
+						<attribute name="is_in_color" type="string" />
+					</complexType>
+				</element>
+			</sequence>
+		</complexType>
+	</element>
+</schema>
