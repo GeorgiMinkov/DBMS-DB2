@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<movies xmlns="http://xmlcourse.free.bg/2017/71600/movies">
+    <movie year="1977" length="124" is_in_colour="Y">
+        <title>Star Wars</title>
+        <studio presc="3">
+            <name>Fox</name>
+            <address>10201 Pico Boulevard</address>
+        </studio>
+        <producer cert="555">
+            <name>George Lucas</name>
+            <address>Oak Rd.</address>
+            <networth value="200000000" currency="USD"/>
+        </producer>
+        <actors>
+            <actor gender="F" birthdate="1979-07-05">
+                <name>Kim Basinger</name>
+                <address>Baldwin Av.</address>
+            </actor>
+            <actor gender="M" birthdate="1977-07-06">
+                <name>Alec Baldwin</name>
+                <address>Baldwin Av.</address>
+            </actor>
+            <actor gender="M" birthdate="1955-05-05">
+                <name>Harrison Ford</name>
+                <address>Prefect Rd.</address>
+            </actor>
+        </actors>
+        <images>
+            <image>https://upload.wikimedia.org/wikipedia/en/8/87/StarWarsMoviePoster1977.jpg</image>
+        </images>
+    </movie>
+    
+    <movie year="1983" length="132" is_in_colour="Y">
+        <title>Terms of Endearment</title>
+        <studio presc="5">
+            <name>MGM</name>
+            <address>MGM Boulevard</address>
+        </studio>
+        <producer cert="123">
+            <name>Calvin Coolidge</name>
+            <address>Fast Lane</address>
+            <networth value="18196706.40" currency="USD"/>
+        </producer>
+        <actors>
+            <actor gender="F" birthdate="1977-07-07">
+                <name>Jane Fonda</name>
+                <address>Turner Av.</address>
+            </actor>
+            <actor gender="M" birthdate="1949-05-05">
+                <name>Jack Nicholson</name>
+                <address>X path</address>
+            </actor>
+        </actors>
+    </movie>
+</movies>
